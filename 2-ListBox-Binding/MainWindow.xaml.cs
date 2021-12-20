@@ -21,19 +21,21 @@ namespace _2_ListBox_Binding
     /// </summary>
     public partial class MainWindow : Window
     {
-        public List<Student> Students = new List<Student>();
+       
+    public List<Student> Students = new List<Student>();
 
         public MainWindow()
         {
             InitializeComponent();
             InitStudents();
+            StudentsList.ItemsSource = Students;
         }
 
         private void InitStudents()
         {
             Students.Add(new Student()
             {
-                Icon = "Assets/01.npg",
+                Icon = "Assets/01.png",
                 FirstName = "Ruslan",
                 Completion = 20
             });
@@ -41,7 +43,7 @@ namespace _2_ListBox_Binding
             {
                 Icon = "Assets/02.png",
                 FirstName = "Henry",
-                Completion = 19
+                Completion = 80
             });
         }
     }

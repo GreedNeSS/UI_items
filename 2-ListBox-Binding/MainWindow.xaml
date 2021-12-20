@@ -6,17 +6,14 @@
         xmlns:local="clr-namespace:_2_ListBox_Binding"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Window.DataContext>
-        <local:MainWindow/>
-    </Window.DataContext>
     <Grid>
-        <ListBox ItemsSource="{Binding Students}">
+        <ListBox x:Name="StudentsList">
             <ListBox.ItemTemplate>
-                <DataTemplate DataType="local:Student">
+                <DataTemplate>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="{Binding Icon}"/>
-                        <TextBlock Text="{Binding FirstName}" ></TextBlock>
-                        <ProgressBar Value="{Binding Completion}"/>
+                        <TextBlock Text="{Binding FirstName}" Margin="30, 0, 30, 0"></TextBlock>
+                        <ProgressBar Value="{Binding Completion}" Width="100"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
