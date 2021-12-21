@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-ListBox-Binding", "2-List
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-ListBox-simple", "1-ListBox-simple\1-ListBox-simple.csproj", "{46F82D38-9CAC-4FE3-A53E-AE836BE98CBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Observable-Collection", "3-Observable-Collection\3-Observable-Collection.csproj", "{EE255A5B-AD54-46B8-A748-989DD35D0041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{46F82D38-9CAC-4FE3-A53E-AE836BE98CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46F82D38-9CAC-4FE3-A53E-AE836BE98CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46F82D38-9CAC-4FE3-A53E-AE836BE98CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE255A5B-AD54-46B8-A748-989DD35D0041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE255A5B-AD54-46B8-A748-989DD35D0041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE255A5B-AD54-46B8-A748-989DD35D0041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE255A5B-AD54-46B8-A748-989DD35D0041}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
